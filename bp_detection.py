@@ -289,7 +289,7 @@ if __name__ == "__main__":
     train = True
     test = True
     once = False
-    model_name = 'model_1'
+    model_name = 'model_2'
     train_x, train_y, test_x, test_y = get_our_v3('./pulses/', 0.8)
 
     if not os.path.exists("./models" + model_name):
